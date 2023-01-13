@@ -10,12 +10,13 @@ html{
  
 body{
     
-    background-image: url(images/caleb-jack-Imjwh4HYdUk-unsplash.jpg);
+    background: url(images/caleb-jack-Imjwh4HYdUk-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     font-family: 'Cantarell', sans-serif;
     
+}
+main{
+   position: relative;
 }
 p{
   display: flex;
@@ -24,11 +25,17 @@ p{
 }
 
 .wrapper{
-    height: auto;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    height: calc(100vh - 56px);
+    box-sizing: border-box;
     margin: auto;
     color: white;
+  
+    
+
 }
 
 .page-header{
