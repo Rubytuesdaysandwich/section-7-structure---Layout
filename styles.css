@@ -1,0 +1,85 @@
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+html{
+    height: 100%;
+}
+ 
+body{
+    
+    background-image: url(images/caleb-jack-Imjwh4HYdUk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Cantarell', sans-serif;
+    
+}
+p{
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.wrapper{
+    height: auto;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: auto;
+    color: white;
+}
+
+.page-header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 16px;
+    font-size:40px ;
+
+    
+}
+.content{
+    margin-top:50px ;
+    margin-bottom: 50px;
+}
+.sub-title{
+    display: flex;
+  justify-content: center;
+  margin-top:16px ;
+  font-size: 18px;
+}
+.sub-sub-title{
+    display: flex;
+    justify-content: center;
+    margin: .5rem;
+    font-size: 18px;
+}
+.read-more-container{
+    display: flex;
+    justify-content: center;
+    margin:0 0 1rem ;
+}
+.read-more{
+    color: #cafaea;
+    background-color: transparent;
+    border: solid 2px #cafaea ;
+    border-radius: 5px;
+    padding: .5rem;
+   font-size: large;
+   font-weight: bold;
+}
+.inner{
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 10px;
+  display: flex;
+}
+a{
+    margin: auto;
+    border: solid 2px white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
