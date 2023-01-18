@@ -1,19 +1,39 @@
-
+/* set the default margins and padding to 0 for everything */
 *{
     margin:0;
     padding:0;
     
 }
+/* set html height to 100% of screen size */
 html{
     height: 100%;
 }
+/* these are within the header section ▼ */
+/* set the size of the header where the tutorial button is located and create spacing on top */
  header{
     display: table;
     padding-bottom: 80px;
     width: 100%;
  }
+/* effects div of the header navigation at the top of the page */
+.inner{
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 10px;
+  display: flex;
+}
+/* set the style of the read tutorial button in the header▼ */
+a{
+    margin: auto;
+    border: solid 2px white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+/* set the style of the read tutorial button in the header▲ */
+/* these are within the header section ▲ */
 body{
-    
+    /* set the background and position of the background along with the font used for text */
     background: url(images/caleb-jack-Imjwh4HYdUk-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: 'Cantarell', sans-serif;
@@ -23,17 +43,17 @@ main{
    position: relative;
 }
 p{
+    /* set the size of all paragraph tags on the page and their positions to center */
   display: flex;
   justify-content: center;
   font-size: 18px;
 }
-
+/* The wrapper contains all the content */
 .wrapper{
     display: flex;
     flex-direction: column;
-    
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-start;/*makes the screen adjust when the more-content button is pressed*/
     height: calc(100vh - 56px);
     box-sizing: border-box;
     margin: auto;
@@ -42,7 +62,7 @@ p{
     
 
 }
-
+/* pages heading for Responsive Full Background Image text  */
 .page-header{
     display: flex;
     justify-content: center;
@@ -52,7 +72,9 @@ p{
 
     
 }
+/* content section▼ */
 .content{
+    /* set the spacing top and bottom of the subtitles  */
     margin-top:50px ;
     margin-bottom: 50px;
 }
@@ -68,6 +90,7 @@ p{
     margin: .5rem;
     font-size: 18px;
 }
+/* content section ends ▲ */
 .read-more-container{
     display: flex;
     justify-content: center;
@@ -79,23 +102,10 @@ p{
     border: solid 2px #cafaea ;
     border-radius: 5px;
     padding: .5rem;
-   font-size: large;
+   font-size:x-large;
    font-weight: bold;
 }
-.inner{
-  background-color: rgba(0, 0, 0, 0.76);
-  padding: 10px;
-  display: flex;
-}
-a{
-    margin: auto;
-    border: solid 2px white;
-    border-radius: 10px;
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-}
-
+/* blockquotes styling ▼ */
 .block{
     display: block;
     position: relative;
@@ -108,11 +118,11 @@ a{
     font-size: 22px;
     line-height: 28px;
 }
-
+/* blockquotes styling ▲ */
 .more-content{
     display: none;
 }
-
+/* change the image used based on max and min widths depending on screen sizes */
 @media (max-width: 480px){
     body{
         background: url(images/ashish-sunar-4CTbXtFb6gM-unsplash-copy-square.jpg) no-repeat center center fixed;
@@ -120,4 +130,11 @@ a{
     font-family: 'Cantarell', sans-serif;
     }
     
+}
+@media (min-Width:1200px){
+    body{
+        background: url(images/eugene-golovesov-D04h8zA0D2k-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Cantarell', sans-serif;
+    }
 }
