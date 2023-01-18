@@ -9,7 +9,7 @@
 console.log("button clicked");
 if(hiddenBlockQuotes.style.display="none")   
 hiddenBlockQuotes.style.display="block";
-else{
+else if(hiddenBlockQuotes.style.display="block"){
     hiddenBlockQuotes.style.display="none";
 }
 })
