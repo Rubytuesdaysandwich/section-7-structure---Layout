@@ -8,10 +8,31 @@
     <title>section-7-structure and layout</title>
 </head>
 <body>
-    <nav>
+<style>
+@media (max-width: 480px){
+    body{
+        background: url(images/ashish-sunar-4CTbXtFb6gM-unsplash-copy-square.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Cantarell', sans-serif;
+    }
+    
+} 
+@media (min-Width:1200px){
+    body{
+        background: url(images/eugene-golovesov-D04h8zA0D2k-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Cantarell', sans-serif;
+    }
+}
+
+</style>
+
+    <header>
+<nav>
         <div class="inner">
           <a type="button" target="#" href="https://www.webfx.com/blog/web-design/responsive-background-image/">read Tutorial</a>
         </div>
+    </header>
     </nav>
     <main>
         <section class="wrapper">
@@ -23,10 +44,10 @@
            <p class="sub-sub-title">To See The Background Image Change In Size</p>
         </div>
         <div class="read-more-container">
-           <a type="button"  href="#more-content" class="read-more">Load Some content</a>
+           <a type="button"  href="#" class="read-more">Load Some content</a>
         </div>
         <p>To see Scrolling Behavior</p> 
-        <div id="more-content">
+        <div class="more-content" >
             <p>Background image courtesy of
                 Unsplash.</p>
             <blockquote class="block">Creating a goal-driven statement of what a product or application does results in better product experiences. It meets expectations because it is focused on solving the problem it was created to address. There is power in doing one thing and it doing it very well.

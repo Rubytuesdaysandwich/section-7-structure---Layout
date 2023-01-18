@@ -7,7 +7,11 @@
 html{
     height: 100%;
 }
- 
+ header{
+    display: table;
+    padding-bottom: 80px;
+    width: 100%;
+ }
 body{
     
     background: url(images/caleb-jack-Imjwh4HYdUk-unsplash.jpg) no-repeat center center fixed;
@@ -105,6 +109,15 @@ a{
     line-height: 28px;
 }
 
-#more-content{
+.more-content{
     display: none;
+}
+
+@media (max-width: 480px){
+    body{
+        background: url(images/ashish-sunar-4CTbXtFb6gM-unsplash-copy-square.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Cantarell', sans-serif;
+    }
+    
 }
