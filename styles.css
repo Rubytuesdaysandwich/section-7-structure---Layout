@@ -90,3 +90,19 @@ a{
     color: white;
     padding: 5px;
 }
+
+.more-content{
+   
+}
+.block{
+
+    display: block;
+    max-width: 480px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: rgba(0,0,0,.3);
+    color: #e1e1e1;
+    font-family: kotta one,serif;
+    font-size: 22px;
+    line-height: 28px;
+}
