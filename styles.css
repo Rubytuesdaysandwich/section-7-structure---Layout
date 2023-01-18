@@ -27,8 +27,9 @@ p{
 .wrapper{
     display: flex;
     flex-direction: column;
+    
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: calc(100vh - 56px);
     box-sizing: border-box;
     margin: auto;
@@ -91,18 +92,19 @@ a{
     padding: 5px;
 }
 
-.more-content{
-   
-}
 .block{
-
     display: block;
+    position: relative;
     max-width: 480px;
     margin: 15px auto;
     padding: 15px;
     background-color: rgba(0,0,0,.3);
     color: #e1e1e1;
-    font-family: kotta one,serif;
+    font-family: 'Cantarell', sans-serif;
     font-size: 22px;
     line-height: 28px;
+}
+
+#more-content{
+    display: none;
 }
